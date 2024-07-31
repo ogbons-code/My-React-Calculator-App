@@ -70,8 +70,9 @@ function App() {
             <button class="bg-white text-lg p-2 text-black 
               font-bold rounded-lg shadow-lg ..." onClick={() => display("6")}>6</button>
             <button
-              class="bg-green-400 text-lg p-2 text-white font-bold
-                 rounded-lg shadow-lg ..." onClick={() => calculate()}>=</button>
+              class="bg-blue-500 text-2xl p-2 text-white
+                 font-bold rounded-lg shadow-lg ..." onClick={() => display("%")}>%</button>
+
           </div>
         </div>
 
@@ -83,6 +84,9 @@ function App() {
                font-bold rounded-lg shadow-lg ..." onClick={() => display("2")}>2</button>
             <button class="bg-white text-lg p-2 text-black 
               font-bold rounded-lg shadow-lg ..." onClick={() => display("3")}>3</button>
+            <button
+              class="bg-green-400 text-lg p-2 text-white font-bold
+                 rounded-lg shadow-lg ..." onClick={() => calculate()}>=</button>
           </div>
         </div>
 
